@@ -3,7 +3,8 @@ Mobius is a program for transcoding Mobiclip videos (`.moflex` or `.mods`) to `.
 The source is based on Gericom's [MobiclipDecoder](https://github.com/Gericom/MobiclipDecoder).
 Mobius also uses ffmpeg for the output — a static binary for Windows can be obtained from the [FFmpeg builds](https://ffmpeg.zeranoe.com/builds/) page.
 In order to use this you need to install MS VisualStudio (community edition works) and the dotNet developer sdk.  I've used v4.8 and it works.
-You then create a project using this repo, compile the project and then follow the instructions below.
+You then create a project using this repo, compile the project and then follow the instructions below.  This is the link to the .moflex file I converted to .mp4 for testing  https://archive.org/download/event-horizon-1997_202408/Event%20Horizon%20%281997%29.moflex
+
 
 ## Initial setup
 The `Mobius.exe.config` file needs to be set up before first use. The most important one of these is:
